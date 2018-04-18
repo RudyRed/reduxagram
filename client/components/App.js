@@ -6,7 +6,7 @@ import Main from './Main'
 
 const mapStateToProps = (state) =>  ({
   posts: state.posts,
-  comment: state.comments,
+  comments: state.comments,
 });
 
 const mapDispatchToProps = (dispatch) => bindActionCreators(actionCreators, dispatch);
