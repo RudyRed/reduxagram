@@ -17,7 +17,7 @@ const postComments = function (state = [], action) {
 
 }
 
-const comments = function (state = [], action) {
+const comments = function (state = {}, action) {
   if (typeof action.postId !== undefined) {
     return {
       ...state,
